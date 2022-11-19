@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;600;700&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
@@ -19,524 +20,281 @@
     <script src="./assets/js/menu.min.js"></script>
   </head>
   <body style="height: 1900px;">
-    <div class="seccion-1">
-        <header>
-          <div>
-            <nav
-              class="navbar fixed-top navbar-expand-lg navbar-light bg-ligth justify-content-between"
-              id="navegacion"
-            >
-              <div class="d-flex align-items-center">
-                <a href="nft.html" class="logo">
-                  <img src="./assets/img/logo.svg" alt="logo"
-                /></a>
-        
-                <form role="search" class="d-flex" action="#" id="nav-busqueda">
-                  <div class="d-flex">
-                    <button type="submit">
-                      <img
-                        src="./assets/img/icons/search.svg"
-                        alt="search"
-                        style="margin-left: 10px"
-                      />
-                    </button>
-                    <input
-                      type="text"
-                      name="search-input"
-                      id="search-input"
-                      placeholder="Search item..."
-                      class="form-control"
-                    />
-                  </div>
-                </form>
-              </div>
-              <div class="d-flex align-items-center justify-content-end">
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navegacionmovil"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div id="navegacionmovil" class="collapse navbar-collapse bg-ligth">
-                  <nav class="nav ml-auto">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      >Home +</a
-                    >
-                    <a class="nav-link" href="#">Explore +</a>
-                    <a class="nav-link" href="#">Pages +</a>
-                    <a class="nav-link" href="#">Blog +</a>
-                    <a class="nav-link" href="#">Contact</a>
-                  </nav>
-                </div>
-                <div class="d-flex">
-                  <a href="#" class="btn">
-                    <img src="./assets/img/icons/create-icon.svg" alt="crear" />
-                    Create
-                  </a>
-                </div>
-                <div>
-                  <a href="#" class="user-avatar">
-                    <img src="assets/img/media/user.png" alt=""
+
+    <!--------------------- header ---------------------------------------->
+      <div class="seccion-1">
+          <header>
+            <div>
+              <nav
+                class="navbar fixed-top navbar-expand-lg navbar-light bg-ligth justify-content-between"
+                id="navegacion"
+              >
+                <div class="d-flex align-items-center">
+                  <a href="nft.html" class="logo">
+                    <img src="./assets/img/logo.svg" alt="logo"
                   /></a>
+          
+                  <form role="search" class="d-flex" action="#" id="nav-busqueda">
+                    <div class="d-flex">
+                      <button type="submit">
+                        <img
+                          src="./assets/img/icons/search.svg"
+                          alt="search"
+                          style="margin-left: 10px"
+                        />
+                      </button>
+                      <input
+                        type="text"
+                        name="search-input"
+                        id="search-input"
+                        placeholder="Search item..."
+                        class="form-control"
+                      />
+                    </div>
+                  </form>
+                </div>
+                <div class="d-flex align-items-center justify-content-end">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navegacionmovil"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div id="navegacionmovil" class="collapse navbar-collapse bg-ligth">
+                    <nav class="nav ml-auto">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >Home +</a
+                      >
+                      <a class="nav-link" href="#">Explore +</a>
+                      <a class="nav-link" href="#">Pages +</a>
+                      <a class="nav-link" href="#">Blog +</a>
+                      <a class="nav-link" href="#">Contact</a>
+                    </nav>
+                  </div>
+                  <div class="d-flex">
+                    <a href="#" class="btn">
+                      <img src="./assets/img/icons/create-icon.svg" alt="crear" />
+                      Create
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#" class="user-avatar">
+                      <img src="assets/img/media/user.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </header>
+
+          <div class="container">
+              <div class="row">
+                <div class="d-flex flex-column col-lg-6 col-md-12">
+                    <h1 class="titulo-header">
+                        Digital Collection & Sell on <span>NFTs</span> Marketplace
+                    </h1>
+                        <ul class="d-flex" id="lista">
+                            <li id="item-1">
+                                <h4>
+                                    <span class="counter">3</span>k<span class="c1">+</span>
+                                  </h4>
+                                  <h6>Artwork</h6>
+                            </li>
+                            <li id="item-1">
+                                <h4>
+                                    <span class="counter">9</span>k<span class="c1">+</span>
+                                  </h4>
+                                  <h6>Auction</h6>
+                            </li>
+                            <li id="item-1">
+                                <h4>
+                                    <span class="counter">6</span>k<span class="c1">+</span>
+                                  </h4>
+                                  <h6>Artist</h6>
+                            </li>
+                        </ul>
+                        <div class="d flex">
+                            <a href="#" class="btn" id="btn-discover">
+                                <img src="./assets/img/icons/discover.svg" alt="discover" />
+                                DISCOVER
+                            </a>
+                            <a href="#" class="btn btn-link">
+                                <img src="./assets/img/icons/create-icon.svg" alt="discover" />
+                                CREATE NFT
+                            </a>
+                        </div>
+                </div>
+                <div class="d-flex flex-column col-lg-6 col-md-12 col-sm-12" >
+                    <div class="banner-img">
+                        <img src="./assets/img/media/banner-img.png" alt="banner">
+                        <div class="banner-img-content">
+                            <h2>Do a Portrait Painting Artwork!</h2>
+                            <ul class="d-flex justify-content-between" id="lista-contenido">
+                                <li>
+                                    <h5>Current Bid</h5>
+                                    <h5 class="d-flex">
+                                        <img src="./assets/img/icons/eth.svg" alt="">
+                                        03.66 ETH
+                                    </h5>
+                                </li>
+                                <li>
+                                    <h5>Action Ending In</h5>
+                                    <h5 class="d-flex">
+                                        <img src="./assets/img/icons/time.svg" alt="">
+                                        00:00:00
+                                    </h5>
+                                </li>
+                            </ul>
+                            <div class="d-flex">
+                                <div class="btn-circle">
+                                    <a href="#">
+                                        <img src="./assets/img/icons/heart.png" alt="love">
+                                    </a>
+                                </div>
+                                <div class="btn-circle">
+                                    <a href="#">
+                                        <img src="./assets/img/icons/share.svg" alt="share">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#" class="btn">
+                                        <img src="./assets/img/icons/judge-icon.svg" alt="place bid"/>
+                                        place hid
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
               </div>
-            </nav>
           </div>
-        </header>
+
+      <section class="who-trust">
         <div class="container">
             <div class="row">
-              <div class="d-flex flex-column col-lg-6 col-md-12">
-                  <h1 class="titulo-header">
-                      Digital Collection & Sell on <span>NFTs</span> Marketplace
-                  </h1>
-                      <ul class="d-flex" id="lista">
-                          <li id="item-1">
-                              <h4>
-                                  <span class="counter">3</span>k<span class="c1">+</span>
-                                </h4>
-                                <h6>Artwork</h6>
-                          </li>
-                          <li id="item-1">
-                              <h4>
-                                  <span class="counter">9</span>k<span class="c1">+</span>
-                                </h4>
-                                <h6>Auction</h6>
-                          </li>
-                          <li id="item-1">
-                              <h4>
-                                  <span class="counter">6</span>k<span class="c1">+</span>
-                                </h4>
-                                <h6>Artist</h6>
-                          </li>
-                      </ul>
-                      <div class="d flex">
-                          <a href="#" class="btn" id="btn-discover">
-                              <img src="./assets/img/icons/discover.svg" alt="discover" />
-                              DISCOVER
-                          </a>
-                          <a href="#" class="btn btn-link">
-                              <img src="./assets/img/icons/create-icon.svg" alt="discover" />
-                              CREATE NFT
-                          </a>
-                      </div>
-              </div>
-              <div class="d-flex flex-column col-lg-6 col-md-12 col-sm-12" >
-                  <div class="banner-img">
-                      <img src="./assets/img/media/banner-img.png" alt="banner">
-                      <div class="banner-img-content">
-                          <h2>Do a Portrait Painting Artwork!</h2>
-                          <ul class="d-flex justify-content-between" id="lista-contenido">
-                              <li>
-                                  <h5>Current Bid</h5>
-                                  <h5 class="d-flex">
-                                      <img src="./assets/img/icons/eth.svg" alt="">
-                                      03.66 ETH
-                                  </h5>
-                              </li>
-                              <li>
-                                  <h5>Action Ending In</h5>
-                                  <h5 class="d-flex">
-                                      <img src="./assets/img/icons/time.svg" alt="">
-                                      00:00:00
-                                  </h5>
-                              </li>
-                          </ul>
-                          <div class="d-flex">
-                              <div class="btn-circle">
-                                  <a href="#">
-                                      <img src="./assets/img/icons/heart.png" alt="love">
-                                  </a>
-                              </div>
-                              <div class="btn-circle">
-                                  <a href="#">
-                                      <img src="./assets/img/icons/share.svg" alt="share">
-                                  </a>
-                              </div>
-                              <div>
-                                  <a href="#" class="btn">
-                                      <img src="./assets/img/icons/judge-icon.svg" alt="place bid"/>
-                                      place hid
-                                  </a>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
+                <div class="col-lg-5">
+                    <div class="section-title text-white mb-4">
+                        <h1>Who Trust In Us</h21>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-7">
+                    <div class="content text-white mt-n1">
+                        <p>NFTs are non-fungible tokens. They are unique items that you replace with something else. For example, a one-of-kind trading card is an NFT – you can't just replace it with any other card. If you trade yur card for some other card, you have something different. These differ from fungible items, which are often the same as each other.</p>
+
+                        <p id="p2">Example, a one-of-kind trading card is an NFT - you can't just replace it with any other card. If you
+                        These differ from fungible items, which are often the same as each other.
+                        </p>
+                    </div> 
+                </div>
             </div>
         </div>
-        <div class="container-fluid" style="background-image: url(https://www.themelooks.biz/demo/anefty/html/preview/assets/img/bg/page-bg.png); width: 100%;">
-          <section id="live-auction">
+        <div class="favicons">
             <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-7 text-center justify-content-center" style="padding-bottom: 3%;">
-                    <h1>
-                      Live Auctions
-                    </h1>
-                    <p>NFTs are non-fungible tokens. They are unique items that you can't replace with something else. for trading card is an NFT – you can't just replace it with any other card.</p>
-                </div>
-                <div id="carouselExampleCaptions" class="carousel slide col-lg-12" data-bs-ride="carousel">
-                  <div class="carousel-indicators" id="boton-indicador">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <div class="row">
-                        <div class="col-lg-4">
-                          <div class="card" style="border-radius: 10px;">
-                            <img src="./assets/img/product/product1.png" class="card-img-top" alt="...">
-                            <div class="card-img-overlay d-flex justify-content-end align-items-end flex-column">
-                              <div id="card-style">
-                                <div class="container">
-                                  <h5 class="card-title">Liquid Forest Princess</h5>
-                                  <div class="d-flex justify-content-between">
-                                    <h6>03.66 ETH</h6>
-                                    <h6> 00:00:00 LEFT</h6>
-                                  </div>
-                                  <div class="linea"></div>
-                                  <div class="d-flex">
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/heart.png" alt="love">
-                                        </a>
-                                    </div>
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/share.svg" alt="share">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#" class="btn">
-                                          <img src="./assets/img/icons/judge-icon.svg" alt="place bid"/>
-                                              place hid
-                                        </a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="box">
+                            <img src="assets/img/favicons/AUTHEREUM.png" alt="#">
+                            <h6 class="subtitle text-white" >AUTHEREUM</h6>
                         </div>
-                        <div class="col-lg-4">
-                          <div class="card" style="border-radius: 10px;">
-                            <img src="./assets/img/product/product2.png" class="card-img-top" alt="...">
-                            <div class="card-img-overlay d-flex justify-content-end align-items-end flex-column">
-                              <div id="card-style">
-                                <div class="container">
-                                  <h5 class="card-title">The Girl With The Firefly</h5>
-                                  <div class="d-flex justify-content-between">
-                                    <h6>0.88 ETH</h6>
-                                    <h6> 00:00:00 LEFT</h6>
-                                  </div>
-                                  <div class="linea"></div>
-                                  <div class="d-flex">
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/heart.png" alt="love">
-                                        </a>
-                                    </div>
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/share.svg" alt="share">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#" class="btn">
-                                          <img src="./assets/img/icons/judge-icon.svg" alt="place bid"/>
-                                              place hid
-                                        </a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-4">
-                          <div class="card" style="border-radius: 10px;">
-                            <img src="./assets/img/product/product3.png" class="card-img-top" alt="...">
-                            <div class="card-img-overlay d-flex justify-content-end align-items-end flex-column">
-                              <div id="card-style">
-                                <div class="container">
-                                  <h5 class="card-title">Synthase On Modern Painting</h5>
-                                  <div class="d-flex justify-content-between">
-                                    <h6>0.84 ETH</h6>
-                                    <h6> 00:00:00 LEFT</h6>
-                                  </div>
-                                  <div class="linea"></div>
-                                  <div class="d-flex">
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/heart.png" alt="love">
-                                        </a>
-                                    </div>
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/share.svg" alt="share">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#" class="btn">
-                                          <img src="./assets/img/icons/judge-icon.svg" alt="place bid"/>
-                                              place hid
-                                        </a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                     </div>
-                    <div class="carousel-item">
-                      <div class="row">
-                        <div class="col-lg-4">
-                          <div class="card" style="border-radius: 10px;">
-                            <img src="./assets/img/product/product2.png" class="card-img-top" alt="...">
-                            <div class="card-img-overlay d-flex justify-content-end align-items-end flex-column">
-                              <div id="card-style">
-                                <div class="container">
-                                  <h5 class="card-title">The Girl With The Firefly</h5>
-                                  <div class="d-flex justify-content-between">
-                                    <h6>0.88 ETH</h6>
-                                    <h6> 00:00:00 LEFT</h6>
-                                  </div>
-                                  <div class="linea"></div>
-                                  <div class="d-flex">
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/heart.png" alt="love">
-                                        </a>
-                                    </div>
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/share.svg" alt="share">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#" class="btn">
-                                          <img src="./assets/img/icons/judge-icon.svg" alt="place bid"/>
-                                              place hid
-                                        </a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                    <div class="col">
+                        <div class="box">
+                            <img src="assets/img/favicons/venly.png" alt="#">
+                            <h6 class="subtitle text-white">VENLY</h6>
                         </div>
-                        <div class="col-lg-4">
-                          <div class="card" style="border-radius: 10px;">
-                            <img src="./assets/img/product/product3.png" class="card-img-top" alt="...">
-                            <div class="card-img-overlay d-flex justify-content-end align-items-end flex-column">
-                              <div id="card-style">
-                                <div class="container">
-                                  <h5 class="card-title">Synthase On Modern Painting</h5>
-                                  <div class="d-flex justify-content-between">
-                                    <h6>0.84 ETH</h6>
-                                    <h6> 00:00:00 LEFT</h6>
-                                  </div>
-                                  <div class="linea"></div>
-                                  <div class="d-flex">
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/heart.png" alt="love">
-                                        </a>
-                                    </div>
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/share.svg" alt="share">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#" class="btn">
-                                          <img src="./assets/img/icons/judge-icon.svg" alt="place bid"/>
-                                              place hid
-                                        </a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-4">
-                          <div class="card" style="border-radius: 10px;">
-                            <img src="./assets/img/product/product1.png" class="card-img-top" alt="...">
-                            <div class="card-img-overlay d-flex justify-content-end align-items-end flex-column">
-                              <div id="card-style">
-                                <div class="container">
-                                  <h5 class="card-title">Liquid Forest Princess</h5>
-                                  <div class="d-flex justify-content-between">
-                                    <h6>03.66 ETH</h6>
-                                    <h6> 00:00:00 LEFT</h6>
-                                  </div>
-                                  <div class="linea"></div>
-                                  <div class="d-flex">
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/heart.png" alt="love">
-                                        </a>
-                                    </div>
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/share.svg" alt="share">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#" class="btn">
-                                          <img src="./assets/img/icons/judge-icon.svg" alt="place bid"/>
-                                              place hid
-                                        </a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                     </div>
-                  </div>
+                    <div class="col">
+                        <div class="box">
+                            <img src="assets/img/favicons/MetaMask.png" alt="#">
+                            <h6 class="subtitle text-white">METAMASK</h6>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <img src="assets/img/favicons/Bitski.png" alt="#">
+                            <h6 class="subtitle text-white">BITSKI</h6>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <img src="assets/img/favicons/KLAYTN.png" alt="#">
+                            <h6 class="subtitle text-white">KLAYTN</h6>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <img width=1.5em src="assets/img/favicons/FORTMATIC.png" alt="#">
+                            <h6 class="subtitle text-white">FORTMATIC</h6>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </section>
-          <section id="Explore" style="background: url(https://www.themelooks.biz/demo/anefty/html/preview/assets/img/bg/page-bg.png);">
-            <div class="container-fluid">
+        </div>     
+    </section>
+
+
+          <div class="container-fluid" style="background-image: url(https://www.themelooks.biz/demo/anefty/html/preview/assets/img/bg/page-bg.png); width: 100%;">
+            <section id="live-auction">
+              <div class="container">
                 <div class="row justify-content-center">
-                  <div class="col-lg-6 text-center justify-content-center" style="padding-bottom: 3%">
-                    <h1>
-                      Explore Feeds
-                    </h1>
-                    <p>NFTs are non-fungible tokens. They are unique items that you can't replace with something else. for trading card is an NFT – you can't just replace it with any other card</p>
+                  <div class="col-lg-7 text-center justify-content-center" style="padding-bottom: 3%;">
+                      <h1>
+                        Live Auctions
+                      </h1>
+                      <p>NFTs are non-fungible tokens. They are unique items that you can't replace with something else. for trading card is an NFT – you can't just replace it with any other card.</p>
                   </div>
-                  <div id="carouselExampleCaptions2" class="carousel slide col-lg-12" data-bs-ride="carousel">
-                  <div class="carousel-indicators" id="boton-indicador">
-                    <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <div class="row">
-                        <div class="col-lg-4">
-                          <div class="card" style="border-radius: 10px;">
-                            <img src="./assets/img/product/product4.png" class="card-img-top" alt="...">
-                            <div class="card-img-overlay d-flex justify-content-end align-items-end flex-column">
-                              <div id="card-style">
-                                <div class="container">
-                                  <h5 class="card-title">The Girl With The Firefly</h5>
-                                  <div class="d-flex justify-content-between">
-                                    <h6>0.88 ETH</h6>
-                                    <h6> 00:00:00 LEFT</h6>
-                                  </div>
-                                  <div class="linea"></div>
-                                  <div class="d-flex">
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/heart.png" alt="love">
-                                        </a>
-                                    </div>
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/share.svg" alt="share">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#" class="btn">
-                                          <img src="./assets/img/icons/judge-icon.svg" alt="place bid"/>
-                                              place hid
-                                        </a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-4">
-                          <div class="card" style="border-radius: 10px;">
-                            <img src="./assets/img/product/product5.png" class="card-img-top" alt="...">
-                            <div class="card-img-overlay d-flex justify-content-end align-items-end flex-column">
-                              <div id="card-style">
-                                <div class="container">
-                                  <h5 class="card-title">The Girl With The Firefly</h5>
-                                  <div class="d-flex justify-content-between">
-                                    <h6>0.88 ETH</h6>
-                                    <h6> 00:00:00 LEFT</h6>
-                                  </div>
-                                  <div class="linea"></div>
-                                  <div class="d-flex">
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/heart.png" alt="love">
-                                        </a>
-                                    </div>
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/share.svg" alt="share">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#" class="btn">
-                                          <img src="./assets/img/icons/judge-icon.svg" alt="place bid"/>
-                                              place hid
-                                        </a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-4">
-                          <div class="card" style="border-radius: 10px;">
-                            <img src="./assets/img/product/product6.png" class="card-img-top" alt="...">
-                            <div class="card-img-overlay d-flex justify-content-end align-items-end flex-column">
-                              <div id="card-style">
-                                <div class="container">
-                                  <h5 class="card-title">The Girl With The Firefly</h5>
-                                  <div class="d-flex justify-content-between">
-                                    <h6>0.88 ETH</h6>
-                                    <h6> 00:00:00 LEFT</h6>
-                                  </div>
-                                  <div class="linea"></div>
-                                  <div class="d-flex">
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/heart.png" alt="love">
-                                        </a>
-                                    </div>
-                                    <div class="btn-circle">
-                                        <a href="#">
-                                            <img src="./assets/img/icons/share.svg" alt="share">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#" class="btn">
-                                          <img src="./assets/img/icons/judge-icon.svg" alt="place bid"/>
-                                              place hid
-                                        </a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                  <div id="carouselExampleCaptions" class="carousel slide col-lg-12" data-bs-ride="carousel">
+                    <div class="carousel-indicators" id="boton-indicador">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
                         <div class="row">
                           <div class="col-lg-4">
                             <div class="card" style="border-radius: 10px;">
-                              <img src="./assets/img/product/product7.png" class="card-img-top" alt="...">
+                              <img src="./assets/img/product/product1.png" class="card-img-top" alt="...">
+                              <div class="card-img-overlay d-flex justify-content-end align-items-end flex-column">
+                                <div id="card-style">
+                                  <div class="container">
+                                    <h5 class="card-title">Liquid Forest Princess</h5>
+                                    <div class="d-flex justify-content-between">
+                                      <h6>03.66 ETH</h6>
+                                      <h6> 00:00:00 LEFT</h6>
+                                    </div>
+                                    <div class="linea"></div>
+                                    <div class="d-flex">
+                                      <div class="btn-circle">
+                                          <a href="#">
+                                              <img src="./assets/img/icons/heart.png" alt="love">
+                                          </a>
+                                      </div>
+                                      <div class="btn-circle">
+                                          <a href="#">
+                                              <img src="./assets/img/icons/share.svg" alt="share">
+                                          </a>
+                                      </div>
+                                      <div>
+                                          <a href="#" class="btn">
+                                            <img src="./assets/img/icons/judge-icon.svg" alt="place bid"/>
+                                                place hid
+                                          </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="card" style="border-radius: 10px;">
+                              <img src="./assets/img/product/product2.png" class="card-img-top" alt="...">
                               <div class="card-img-overlay d-flex justify-content-end align-items-end flex-column">
                                 <div id="card-style">
                                   <div class="container">
@@ -570,49 +328,14 @@
                             </div>
                           </div>
                           <div class="col-lg-4">
-                            <div class="card" style="border-radius: 8px;">
-                              <img src="./assets/img/product/product8.png" class="card-img-top" alt="...">
+                            <div class="card" style="border-radius: 10px;">
+                              <img src="./assets/img/product/product3.png" class="card-img-top" alt="...">
                               <div class="card-img-overlay d-flex justify-content-end align-items-end flex-column">
                                 <div id="card-style">
                                   <div class="container">
-                                    <h5 class="card-title">The Girl With The Firefly</h5>
+                                    <h5 class="card-title">Synthase On Modern Painting</h5>
                                     <div class="d-flex justify-content-between">
-                                      <h6>0.88 ETH</h6>
-                                      <h6> 00:00:00 LEFT</h6>
-                                    </div>
-                                    <div class="linea"></div>
-                                    <div class="d-flex">
-                                      <div class="btn-circle">
-                                          <a href="#">
-                                              <img src="./assets/img/icons/heart.png" alt="love">
-                                          </a>
-                                      </div>
-                                      <div class="btn-circle">
-                                          <a href="#">
-                                              <img src="./assets/img/icons/share.svg" alt="share">
-                                          </a>
-                                      </div>
-                                      <div>
-                                          <a href="#" class="btn">
-                                            <img src="./assets/img/icons/judge-icon.svg" alt="place bid"/>
-                                                place hid
-                                          </a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-lg-4">
-                            <div class="card" style="border-radius: 8px;">
-                              <img src="./assets/img/product/product4.png" class="card-img-top" alt="...">
-                              <div class="card-img-overlay d-flex justify-content-end align-items-end flex-column">
-                                <div id="card-style">
-                                  <div class="container">
-                                    <h5 class="card-title">The Girl With The Firefly</h5>
-                                    <div class="d-flex justify-content-between">
-                                      <h6>0.88 ETH</h6>
+                                      <h6>0.84 ETH</h6>
                                       <h6> 00:00:00 LEFT</h6>
                                     </div>
                                     <div class="linea"></div>
@@ -641,232 +364,843 @@
                           </div>
                         </div>
                       </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div class="col-lg-4">
+                            <div class="card" style="border-radius: 10px;">
+                              <img src="./assets/img/product/product2.png" class="card-img-top" alt="...">
+                              <div class="card-img-overlay d-flex justify-content-end align-items-end flex-column">
+                                <div id="card-style">
+                                  <div class="container">
+                                    <h5 class="card-title">The Girl With The Firefly</h5>
+                                    <div class="d-flex justify-content-between">
+                                      <h6>0.88 ETH</h6>
+                                      <h6> 00:00:00 LEFT</h6>
+                                    </div>
+                                    <div class="linea"></div>
+                                    <div class="d-flex">
+                                      <div class="btn-circle">
+                                          <a href="#">
+                                              <img src="./assets/img/icons/heart.png" alt="love">
+                                          </a>
+                                      </div>
+                                      <div class="btn-circle">
+                                          <a href="#">
+                                              <img src="./assets/img/icons/share.svg" alt="share">
+                                          </a>
+                                      </div>
+                                      <div>
+                                          <a href="#" class="btn">
+                                            <img src="./assets/img/icons/judge-icon.svg" alt="place bid"/>
+                                                place hid
+                                          </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="card" style="border-radius: 10px;">
+                              <img src="./assets/img/product/product3.png" class="card-img-top" alt="...">
+                              <div class="card-img-overlay d-flex justify-content-end align-items-end flex-column">
+                                <div id="card-style">
+                                  <div class="container">
+                                    <h5 class="card-title">Synthase On Modern Painting</h5>
+                                    <div class="d-flex justify-content-between">
+                                      <h6>0.84 ETH</h6>
+                                      <h6> 00:00:00 LEFT</h6>
+                                    </div>
+                                    <div class="linea"></div>
+                                    <div class="d-flex">
+                                      <div class="btn-circle">
+                                          <a href="#">
+                                              <img src="./assets/img/icons/heart.png" alt="love">
+                                          </a>
+                                      </div>
+                                      <div class="btn-circle">
+                                          <a href="#">
+                                              <img src="./assets/img/icons/share.svg" alt="share">
+                                          </a>
+                                      </div>
+                                      <div>
+                                          <a href="#" class="btn">
+                                            <img src="./assets/img/icons/judge-icon.svg" alt="place bid"/>
+                                                place hid
+                                          </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="card" style="border-radius: 10px;">
+                              <img src="./assets/img/product/product1.png" class="card-img-top" alt="...">
+                              <div class="card-img-overlay d-flex justify-content-end align-items-end flex-column">
+                                <div id="card-style">
+                                  <div class="container">
+                                    <h5 class="card-title">Liquid Forest Princess</h5>
+                                    <div class="d-flex justify-content-between">
+                                      <h6>03.66 ETH</h6>
+                                      <h6> 00:00:00 LEFT</h6>
+                                    </div>
+                                    <div class="linea"></div>
+                                    <div class="d-flex">
+                                      <div class="btn-circle">
+                                          <a href="#">
+                                              <img src="./assets/img/icons/heart.png" alt="love">
+                                          </a>
+                                      </div>
+                                      <div class="btn-circle">
+                                          <a href="#">
+                                              <img src="./assets/img/icons/share.svg" alt="share">
+                                          </a>
+                                      </div>
+                                      <div>
+                                          <a href="#" class="btn">
+                                            <img src="./assets/img/icons/judge-icon.svg" alt="place bid"/>
+                                                place hid
+                                          </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-               </div>
+              </div>
+            </section>
+           
+            <section class="Explore">
+              <div class="contenedor">
+      
+                  <div class="titleExplore">
+                      <h1>Explore Feeds</h1>
+                      <p>NFTs are not-fungible tokens. They are unique items that you can replace with something else, for trafing card is an NFT - you can't just replace it with any other card</p>
+                  </div>
+              
+                  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                  
+                      <!-- Tarjetas -->
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <div class="row">
+                                  <div class="col-lg-3">
+                                      <div class="section" id="card1">
+                                          <div class="cardproduct" id="cardproduct1" style="background-image:url(assets/img/ImgV/product1.png)">
+                                              <div class="boxProduct">
+                                                  <h6>
+                                                      Colorful Abstract Painting  
+                                                  </h6>
+                                                  <div class="textProduct">
+                                                      <p >0.69 ETH</p>
+                                                      <p >2 TO 100</p>
+                                                  </div>
+                                          
+                                                  <div class="linea">
+                                          
+                                                  </div>
+                                          
+                                                  <div class="botones">
+                                                      <div class="iconos">
+                                                        <img id ="like" src="assets/img/ImgV/icons/like.png" alt="">
+                                                        <img id="share" src="assets/img/ImgV/icons/share.png" alt="">
+                                                      </div>
+                                          
+                                                      <button type="button" class="btn btn-outline-primary" >PLACE BID</button>
+                                                  </div>
+                                                  
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-3">
+                                      <div class="section" id="card1">
+                                          <div class="cardproduct" id="cardproduct2" style="background-image:url(assets/img/ImgV/product2.png)">
+                                              <div class="boxProduct">
+                                                  <h6>
+                                                      Liquid Forest Princess 
+                                                  </h6>
+                                                  <div class="textProduct">
+                                                      <p >0.89 ETH</p>
+                                                      <p >2 TO 100</p>
+                                                  </div>
+                                          
+                                                  <div class="linea">
+                                          
+                                                  </div>
+                                          
+                                                  <div class="botones">
+                                                      <div class="iconos">
+                                                          <img id ="like" src="assets/img/ImgV/icons/like.png" alt="">
+                                                          <img id="share" src="assets/img/ImgV/icons/share.png" alt="">
+                                                      </div>
+                                          
+                                                      <button type="button" class="btn btn-outline-primary" >PLACE BID</button>
+                                                  </div>
+                                                  
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-3">
+                                      <div class="section" id="card1">
+                                          <div class="cardproduct" id="cardproduct3" style="background-image:url(assets/img/ImgV/product3.png)">
+                                              <div class="boxProduct">
+                                                  <h6>
+                                                      Animal Girl Painting 
+                                                  </h6>
+                                                  <div class="textProduct">
+                                                      <p >1.89 ETH</p>
+                                                      <p >2 TO 100</p>
+                                                  </div>
+                                          
+                                                  <div class="linea">
+                                          
+                                                  </div>
+                                          
+                                                  <div class="botones">
+                                                      <div class="iconos">
+                                                        <img id ="like" src="assets/img/ImgV/icons/like.png" alt="">
+                                                        <img id="share" src="assets/img/ImgV/icons/share.png" alt="">
+                                                      </div>
+                                          
+                                                      <button type="button" class="btn btn-outline-primary" >PLACE BID</button>
+                                                  </div>
+                                                  
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-3">
+                                      <div class="section" id="card1">
+                                          <div class="cardproduct" id="cardproduct4" style="background-image:url(assets/img/ImgV/product4.png)">
+                                              <div class="boxProduct">
+                                                  <h6>
+                                                      Animal Girl Painting 
+                                                  </h6>
+                                                  <div class="textProduct">
+                                                      <p >3.89 ETH</p>
+                                                      <p >2 TO 100</p>
+                                                  </div>
+                                          
+                                                  <div class="linea">
+                                          
+                                                  </div>
+                                          
+                                                  <div class="botones">
+                                                      <div class="iconos">
+                                                        <img id ="like" src="assets/img/ImgV/icons/like.png" alt="">
+                                                        <img id="share" src="assets/img/ImgV/icons/share.png" alt="">
+                                                      </div>
+                                          
+                                                      <button type="button" class="btn btn-outline-primary" >PLACE BID</button>
+                                                  </div>
+                                                  
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                  
+                      <!-- Contenido 2 -->
+                          <div class="carousel-item">
+                          <div class="row">
+                              <div class="col-lg-3">
+                                  <div class="section" id="card1">
+                                      <div class="cardproduct" id="cardproduct5" style="background-image:url(assets/img/ImgV/product5.png)">
+                                          <div class="boxProduct">
+                                              <h6>
+                                                  Animal Girl Painting  
+                                              </h6>
+                                              <div class="textProduct">
+                                                  <p >1.79 ETH</p>
+                                                  <p >2 TO 100</p>
+                                              </div>
+                                      
+                                              <div class="linea">
+                                      
+                                              </div>
+                                      
+                                              <div class="botones">
+                                                  <div class="iconos">
+                                                    <img id ="like" src="assets/img/ImgV/icons/like.png" alt="">
+                                                    <img id="share" src="assets/img/ImgV/icons/share.png" alt="">
+                                                  </div>
+                                      
+                                                  <button type="button" class="btn btn-outline-primary" >PLACE BID</button>
+                                              </div>
+                                              
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3">
+                                  <div class="section" id="card1">
+                                      <div class="cardproduct" id="cardproduct1" style="background-image:url(assets/img/ImgV/product1.png)">
+                                          <div class="boxProduct">
+                                              <h6>
+                                                  Colorful Abstract Painting  
+                                              </h6>
+                                              <div class="textProduct">
+                                                  <p >0.69 ETH</p>
+                                                  <p >2 TO 100</p>
+                                              </div>
+                                      
+                                              <div class="linea">
+                                      
+                                              </div>
+                                      
+                                              <div class="botones">
+                                                  <div class="iconos">
+                                                    <img id ="like" src="assets/img/ImgV/icons/like.png" alt="">
+                                                    <img id="share" src="assets/img/ImgV/icons/share.png" alt="">
+                                                  </div>
+                                      
+                                                  <button type="button" class="btn btn-outline-primary" >PLACE BID</button>
+                                              </div>
+                                              
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3">
+                                  <div class="section" id="card1">
+                                      <div class="cardproduct" id="cardproduct2" style="background-image:url(assets/img/ImgV/product2.png)">
+                                          <div class="boxProduct">
+                                              <h6>
+                                                  Colorful Abstract Painting  
+                                              </h6>
+                                              <div class="textProduct">
+                                                  <p >0.69 ETH</p>
+                                                  <p >2 TO 100</p>
+                                              </div>
+                                      
+                                              <div class="linea">
+                                      
+                                              </div>
+                                      
+                                              <div class="botones">
+                                                  <div class="iconos">
+                                                    <img id ="like" src="assets/img/ImgV/icons/like.png" alt="">
+                                                    <img id="share" src="assets/img/ImgV/icons/share.png" alt="">
+                                                  </div>
+                                      
+                                                  <button type="button" class="btn btn-outline-primary" >PLACE BID</button>
+                                              </div>
+                                              
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3">
+                                  <div class="section" id="card1">
+                                      <div class="cardproduct" id="cardproduct3" style="background-image:url(assets/img/ImgV/product3.png)">
+                                          <div class="boxProduct">
+                                              <h6>
+                                                  Colorful Abstract Painting  
+                                              </h6>
+                                              <div class="textProduct">
+                                                  <p >0.69 ETH</p>
+                                                  <p >2 TO 100</p>
+                                              </div>
+                                      
+                                              <div class="linea">
+                                      
+                                              </div>
+                                      
+                                              <div class="botones">
+                                                  <div class="iconos">
+                                                    <img id ="like" src="assets/img/ImgV/icons/like.png" alt="">
+                                                    <img id="share" src="assets/img/ImgV/icons/share.png" alt="">
+                                                  </div>
+                                      
+                                                  <button type="button" class="btn btn-outline-primary" >PLACE BID</button>
+                                              </div>
+                                              
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          </div>
+                  
+                      <!-- Contenido 3 -->
+                          <div class="carousel-item">
+                          <div class="row">
+                              <div class="col-lg-3">
+                                  <div class="section" id="card1">
+                                      <div class="cardproduct" id="cardproduct4" style="background-image:url(assets/img/ImgV/product4.png)">
+                                          <div class="boxProduct">
+                                              <h6>
+                                                  Colorful Abstract Painting  
+                                              </h6>
+                                              <div class="textProduct">
+                                                  <p >0.69 ETH</p>
+                                                  <p >2 TO 100</p>
+                                              </div>
+                                      
+                                              <div class="linea">
+                                      
+                                              </div>
+                                      
+                                              <div class="botones">
+                                                  <div class="iconos">
+                                                    <img id ="like" src="assets/img/ImgV/icons/like.png" alt="">
+                                                    <img id="share" src="assets/img/ImgV/icons/share.png" alt="">
+                                                  </div>
+                                      
+                                                  <button type="button" class="btn btn-outline-primary" >PLACE BID</button>
+                                              </div>
+                                              
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3">
+                                  <div class="section" id="card1">
+                                      <div class="cardproduct" id="cardproduct5" style="background-image:url(assets/img/ImgV/product5.png)">
+                                          <div class="boxProduct">
+                                              <h6>
+                                                  Colorful Abstract Painting  
+                                              </h6>
+                                              <div class="textProduct">
+                                                  <p >0.69 ETH</p>
+                                                  <p >2 TO 100</p>
+                                              </div>
+                                      
+                                              <div class="linea">
+                                      
+                                              </div>
+                                      
+                                              <div class="botones">
+                                                  <div class="iconos">
+                                                    <img id ="like" src="assets/img/ImgV/icons/like.png" alt="">
+                                                    <img id="share" src="assets/img/ImgV/icons/share.png" alt="">
+                                                  </div>
+                                      
+                                                  <button type="button" class="btn btn-outline-primary" >PLACE BID</button>
+                                              </div>
+                                              
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3">
+                                  <div class="section" id="card1">
+                                      <div class="cardproduct" id="cardproduct1" style="background-image:url(assets/img/ImgV/product1.png)">
+                                          <div class="boxProduct">
+                                              <h6>
+                                                  Colorful Abstract Painting  
+                                              </h6>
+                                              <div class="textProduct">
+                                                  <p >0.69 ETH</p>
+                                                  <p >2 TO 100</p>
+                                              </div>
+                                      
+                                              <div class="linea">
+                                      
+                                              </div>
+                                      
+                                              <div class="botones">
+                                                  <div class="iconos">
+                                                    <img id ="like" src="assets/img/ImgV/icons/like.png" alt="">
+                                                    <img id="share" src="assets/img/ImgV/icons/share.png" alt="">
+                                                  </div>
+                                      
+                                                  <button type="button" class="btn btn-outline-primary" >PLACE BID</button>
+                                              </div>
+                                              
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3">
+                                  <div class="section" id="card1">
+                                      <div class="cardproduct" id="cardproduct2" style="background-image:url(assets/img/ImgV/product2.png)">
+                                          <div class="boxProduct">
+                                              <h6>
+                                                  Colorful Abstract Painting  
+                                              </h6>
+                                              <div class="textProduct">
+                                                  <p >0.69 ETH</p>
+                                                  <p >2 TO 100</p>
+                                              </div>
+                                      
+                                              <div class="linea">
+                                      
+                                              </div>
+                                      
+                                              <div class="botones">
+                                                  <div class="iconos">
+                                                    <img id ="like" src="assets/img/ImgV/icons/like.png" alt="">
+                                                    <img id="share" src="assets/img/ImgV/icons/share.png" alt="">
+                                                  </div>
+                                      
+                                                  <button type="button" class="btn btn-outline-primary" >PLACE BID</button>
+                                              </div>
+                                              
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          </div>
+                      </div>
+              
+                      <div class="indicators">
+                          <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                      </div>
+              
+                  </div>
+              </div class="contenedor">
+          </section class="Explore">
+
+          <section class="supportCenter">
+
+            <div class="container" id="box-support-center">
+                <div class="row">
+                    <div class="col-lg-4" id="support">
+                            <img  src="assets/img/ImgV/icons/support-img.png" alt="">
+                    </div>
+                    <div class="col-lg-8" id="form">
+                        <div class="title" id="title3">
+                            <h1>Support Center</h1>
+                            <p>Anefty are non-fungible tokens. they are unique items that you can't replace with something else. for example, a one of a kind trading card is an NFT – you can't just replace it with any other card.</p>
+    
+                        </div>
+                        <div class="form"> 
+                          <form action="mailto:valentinapuentes725@gmail.com" method="GET">
+                            <div class="container" id="datos">
+                                  <input type="text" name="name" id="name" placeholder="Your name">
+                            
+                                  <input type="email" name="email" id="email" placeholder="Your email">
+                              </div>
+                            
+                            <textarea name="mensaje" placeholder="Write Message Here" id="mensaje" ></textarea>
+                            
+                            <div class="button-form">
+                              <button type="submit" class="btn btn-outline-primary" >SEND REQUEST</button>
+                            
+                            </div>
+                          <form >
+    
+                        </div>
+                    </div>
+                </div>
             </div>
+    
           </section>
-          <section id="collection">
-            <div class="container-fluid">
-              <div class="row justify-content-center">
-                <div class="col-lg-6 text-center justify-content-center" style="padding-bottom: 3%">
-                  <h1>
-                    Top Collections
-                  </h1>
-                  <p>NFTs are non-fungible tokens. They are unique items that you can't replace with something else. for trading card is an NFT – you can't just replace it with any other card.</p>
+
+            <section id="collection">
+              <div class="container-fluid">
+                <div class="row justify-content-center">
+                  <div class="col-lg-6 text-center justify-content-center" style="padding-bottom: 3%">
+                    <h1>
+                      Top Collections
+                    </h1>
+                    <p>NFTs are non-fungible tokens. They are unique items that you can't replace with something else. for trading card is an NFT – you can't just replace it with any other card.</p>
+                  </div>
                 </div>
               </div>
-            </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <a
+                    href="#"
+                      class="single-collection"
+                      data-count="01"
+                      ><div class="collection-img">
+                        <img
+                          src="assets/img/collections/collection1.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="content">
+                        <h5>Meka_Verse</h5>
+                        <span>$203,621,269</span>
+                      </div></a
+                    >
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <a
+                    href="#"
+                      tppabs="http://www.themelooks.biz/demo/anefty/html/preview/collection.html"
+                      class="single-collection"
+                      data-count="02"
+                      ><div class="collection-img">
+                        <img
+                          src="assets/img/collections/collection2.gif"
+                          alt=""
+                        />
+                      </div>
+                      <div class="content">
+                        <h5>Bored_YachtClub</h5>
+                        <span>$118,321,276</span>
+                      </div></a
+                    >
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <a
+                    href="#"
+                      class="single-collection"
+                      data-count="03"
+                      ><div class="collection-img">
+                        <img
+                          src="assets/img/collections/collection3.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="content">
+                        <h5>Bambooz_lers</h5>
+                        <span>$10,429,103</span>
+                      </div></a
+                    >
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <a
+                    href="#"
+                      class="single-collection"
+                      data-count="04"
+                      ><div class="collection-img">
+                        <img
+                          src="assets/img/collections/collection4.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="content">
+                        <h5>The_Humanoids</h5>
+                        <span>$7,991,156</span>
+                      </div></a
+                    >
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <a
+                    href="#"
+                      class="single-collection"
+                      data-count="05"
+                      ><div class="collection-img">
+                        <img
+                          src="assets/img/collections/collection5.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="content">
+                        <h5>Stacked_Toadz</h5>
+                        <span>$6,700,653</span>
+                      </div></a
+                    >
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <a
+                    href="#"
+                      class="single-collection"
+                      data-count="06"
+                      ><div class="collection-img">
+                        <img
+                          src="assets/img/collections/collection6.png""
+                          alt=""
+                        />
+                      </div>
+                      <div class="content">
+                        <h5>Mutant_Cats</h5>
+                        <span>$22,278,069</span>
+                      </div></a
+                    >
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <a
+                    href="#"
+                      class="single-collection"
+                      data-count="07"
+                      ><div class="collection-img">
+                        <img
+                          src="assets/img/collections/collection7.gif"
+                          alt=""
+                        />
+                      </div>
+                      <div class="content">
+                        <h5>Mutant_YachtClub</h5>
+                        <span>$10,307,676</span>
+                      </div></a
+                    >
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <a
+                    href="#"
+                      class="single-collection"
+                      data-count="08"
+                      ><div class="collection-img">
+                        <img
+                          src="assets/img/collections/collection8.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="content">
+                        <h5>Optics_PeopleS</h5>
+                        <span>$19,359,169</span>
+                      </div></a
+                    >
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <a
+                    href="#"
+                      class="single-collection"
+                      data-count="09"
+                      ><div class="collection-img">
+                        <img
+                          src="assets/img/collections/collection9.gif"
+                          alt=""
+                        />
+                      </div>
+                      <div class="content">
+                        <h5>Goofy_Oversized</h5>
+                        <span>$203,621,269</span>
+                      </div></a
+                    >
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <a
+                    href="#"
+                      class="single-collection"
+                      data-count="10"
+                      ><div class="collection-img">
+                        <img
+                          src="assets/img/collections/collection10.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="content">
+                        <h5>Cyber_Kongz</h5>
+                        <span>$7,227,956</span>
+                      </div></a
+                    >
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <a
+                    href="#"
+                      class="single-collection"
+                      data-count="11"
+                      ><div class="collection-img">
+                        <img
+                          src="assets/img/collections/collection11.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="content">
+                        <h5>The_DogePound</h5>
+                        <span>$6,609,169</span>
+                      </div></a
+                    >
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <a
+                    href="#"
+                      class="single-collection"
+                      data-count="12"
+                      ><div class="collection-img">
+                        <img
+                          src="assets/img/collections/collection12.gif"
+                          alt=""
+                        />
+                      </div>
+                      <div class="content">
+                        <h5>Halloween_Bears</h5>
+                        <span>$4,673,966</span>
+                      </div></a
+                    >
+                  </div>
+                </div>
+            </section>
+          </div>
+
+          <section class="footer-king">
             <div class="container">
-              <div class="row">
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                  <a
-                  href="#"
-                    class="single-collection"
-                    data-count="01"
-                    ><div class="collection-img">
-                      <img
-                        src="assets/img/collections/collection1.png"
-                        alt=""
-                      />
+                <div class="row" id="footer-info">
+                    <div class="col-lg-3" id="ft-1">
+                        <div class="row">
+                            <img src="assets/img/ImgV/favicon.png" class="col-4" />
+                            <h5 class="col-4">Anefty</h5>
+                        </div>
+                        <p class="anefty-descript">The anafety first large digital Marketplace cryto collectibles & no fungibles token buy self y
+                            discover digital a</p>
+                        <div class="rds">
+                            <a href=""><img src="https://img.icons8.com/color/25/null/twitter--v1.png" /></a>
+                            <a href=""><img src="https://img.icons8.com/color/25/null/instagram-new.png" /></a>
+                            <a href=""><img src="https://img.icons8.com/color/25/null/pinterest.png" /></a>
+                            <a href=""><img src="https://img.icons8.com/color/25//whatsapp.png" /></a>
+                        </div>
                     </div>
-                    <div class="content">
-                      <h5>Meka_Verse</h5>
-                      <span>$203,621,269</span>
-                    </div></a
-                  >
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                  <a
-                  href="#"
-                    tppabs="http://www.themelooks.biz/demo/anefty/html/preview/collection.html"
-                    class="single-collection"
-                    data-count="02"
-                    ><div class="collection-img">
-                      <img
-                        src="assets/img/collections/collection2.gif"
-                        alt=""
-                      />
+                    <div class="col-lg-2" id="ft2">
+                        <h4>Marketplace</h4>
+                        <ul>
+                            <li><a href="">All NFTS</a></li>
+                            <li><a href="">Trading Paint</a></li>
+                            <li><a href="">Art Painting</a></li>
+                            <li><a href="">Virtual Paints</a></li>
+                            <li><a href="">collectibles</a></li>
+                        </ul>
                     </div>
-                    <div class="content">
-                      <h5>Bored_YachtClub</h5>
-                      <span>$118,321,276</span>
-                    </div></a
-                  >
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                  <a
-                  href="#"
-                    class="single-collection"
-                    data-count="03"
-                    ><div class="collection-img">
-                      <img
-                        src="assets/img/collections/collection3.png"
-                        alt=""
-                      />
+                    <div class="col-lg-2" id="ft2">
+                        <h4>Rourse</h4>
+                         <ul>
+                            <li><a href="">Help Center</a></li>
+                            <li><a href="">Plataform Status</a></li>
+                            <li><a href="">Partners</a></li>
+                            <li><a href="">Gas-free Marketplace</a></li>
+                            <li><a href="">Suggestions</a></li>
+                        </ul>
                     </div>
-                    <div class="content">
-                      <h5>Bambooz_lers</h5>
-                      <span>$10,429,103</span>
-                    </div></a
-                  >
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                  <a
-                  href="#"
-                    class="single-collection"
-                    data-count="04"
-                    ><div class="collection-img">
-                      <img
-                        src="assets/img/collections/collection4.png"
-                        alt=""
-                      />
+                    <div class="col-lg-2" id="ft2">
+                        <h4>My acount</h4>
+                        <ul>
+                            <li><a href="">Profile</a></li>
+                            <li><a href="">Autor</a></li>
+                            <li><a href="">My collections</a></li>
+                            <li><a href="">Settings</a></li>
+                            <li><a href="">Activity </a></li>
+                         </ul>
                     </div>
-                    <div class="content">
-                      <h5>The_Humanoids</h5>
-                      <span>$7,991,156</span>
-                    </div></a
-                  >
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                  <a
-                  href="#"
-                    class="single-collection"
-                    data-count="05"
-                    ><div class="collection-img">
-                      <img
-                        src="assets/img/collections/collection5.png"
-                        alt=""
-                      />
+                    <div class="col-lg-3" id="ft-4">
+                        <h4>Follow instagram</h4>
+                        <img src="assets/img/ImgV/insta1.png" alt="" class="col-3">
+                        <img src="assets/img/ImgV/insta2.png" alt="" class="col-3">
+                        <img src="assets/img/ImgV/insta3.png" alt="" class="col-3">
+                        <img src="assets/img/ImgV/insta4.png" alt="" class="col-3">
+                        <img src="assets/img/ImgV/insta5.png" alt="" class="col-3">
+                        <img src="assets/img/ImgV/insta6.png" alt="" class="col-3">
                     </div>
-                    <div class="content">
-                      <h5>Stacked_Toadz</h5>
-                      <span>$6,700,653</span>
-                    </div></a
-                  >
                 </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                  <a
-                  href="#"
-                    class="single-collection"
-                    data-count="06"
-                    ><div class="collection-img">
-                      <img
-                        src="assets/img/collections/collection6.png""
-                        alt=""
-                      />
-                    </div>
-                    <div class="content">
-                      <h5>Mutant_Cats</h5>
-                      <span>$22,278,069</span>
-                    </div></a
-                  >
+                <div class="row" id="company">
+                    <img src="assets/img/ImgV/f_logo1.png" alt="" class="col-lg-3">
+                    <img src="assets/img/ImgV/f_logo2.png" alt="" class="col-lg-2">
+                    <img src="assets/img/ImgV/f_logo3.png" alt="" class="col-lg-2">
+                    <img src="assets/img/ImgV/f_logo4.png" alt="" class="col-lg-2">
+                    <img src="assets/img/ImgV/f_logo5.png" alt="" class="col-lg-3">
                 </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                  <a
-                  href="#"
-                    class="single-collection"
-                    data-count="07"
-                    ><div class="collection-img">
-                      <img
-                        src="assets/img/collections/collection7.gif"
-                        alt=""
-                      />
-                    </div>
-                    <div class="content">
-                      <h5>Mutant_YachtClub</h5>
-                      <span>$10,307,676</span>
-                    </div></a
-                  >
+                <div class="row" id="end">
+                    <p class="col-6">© 2018 - 2022 Themelooks Networks, Inc.</p>
+                    <p class="col-6"><a href="" class="col-6">Privacy Policy</a><a href="">Terms of Service</a></p>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                  <a
-                  href="#"
-                    class="single-collection"
-                    data-count="08"
-                    ><div class="collection-img">
-                      <img
-                        src="assets/img/collections/collection8.png"
-                        alt=""
-                      />
-                    </div>
-                    <div class="content">
-                      <h5>Optics_PeopleS</h5>
-                      <span>$19,359,169</span>
-                    </div></a
-                  >
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                  <a
-                  href="#"
-                    class="single-collection"
-                    data-count="09"
-                    ><div class="collection-img">
-                      <img
-                        src="assets/img/collections/collection9.gif"
-                        alt=""
-                      />
-                    </div>
-                    <div class="content">
-                      <h5>Goofy_Oversized</h5>
-                      <span>$203,621,269</span>
-                    </div></a
-                  >
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                  <a
-                  href="#"
-                    class="single-collection"
-                    data-count="10"
-                    ><div class="collection-img">
-                      <img
-                        src="assets/img/collections/collection10.png"
-                        alt=""
-                      />
-                    </div>
-                    <div class="content">
-                      <h5>Cyber_Kongz</h5>
-                      <span>$7,227,956</span>
-                    </div></a
-                  >
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                  <a
-                  href="#"
-                    class="single-collection"
-                    data-count="11"
-                    ><div class="collection-img">
-                      <img
-                        src="assets/img/collections/collection11.png"
-                        alt=""
-                      />
-                    </div>
-                    <div class="content">
-                      <h5>The_DogePound</h5>
-                      <span>$6,609,169</span>
-                    </div></a
-                  >
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                  <a
-                  href="#"
-                    class="single-collection"
-                    data-count="12"
-                    ><div class="collection-img">
-                      <img
-                        src="assets/img/collections/collection12.gif"
-                        alt=""
-                      />
-                    </div>
-                    <div class="content">
-                      <h5>Halloween_Bears</h5>
-                      <span>$4,673,966</span>
-                    </div></a
-                  >
-                </div>
-              </div>
-          </section>
-        </div>
+            </div>
+        </section>
+
+  
+      
+
 
   </body>
 </html>

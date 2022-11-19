@@ -1,0 +1,376 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #071838;
+}
+
+
+:root {
+    --c1: #ff0076;
+    --c2: #590f87;
+    --title-color: #02072e;
+    --text-color: #666666;
+    --border-color: #dddddd;
+    --white: #ffffff;
+    --black: #000000;
+    --body-bg: #071838;
+    --title-font: "Lexend", sans-serif;
+    --body-font: "Roboto", sans-serif;
+  }
+
+/* -------------- fontzise-------------------  */
+  h1 {
+    font-size: 3.4375rem;
+    color: var(--white);
+    font-family: var(--title-font);
+  }
+  h2 {
+    font-size: 2.25rem;
+    color: var(--white);
+    font-family: var(--title-font);
+  }
+  h3 {
+    font-size: 1.875rem;
+    color: var(--white);
+    font-family: var(--title-font);
+  }
+  h4 {
+    font-size: 1.5rem;
+    color: var(--white);
+    font-family: var(--title-font);
+  }
+  h5 {
+    font-size: 1.125rem;
+    color: var(--white);
+    font-family: var(--title-font);
+  }
+  h6 {
+    font-size: 0.8125rem;
+    color: var(--white);
+    font-family: var(--title-font);
+  }
+
+  p {
+    font-size: 0.875rem;
+    color: var(--white);
+    font-family: var(--body-font);
+  }
+
+
+/* -------- Who trust in us  V ---------- */
+
+.who-trust {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
+.section-title > h2 {
+    margin-bottom: 0.6875rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+}
+
+#p2 {
+    padding-bottom: 3.125rem;
+
+}
+
+.box > img {
+    width: 3.125rem;
+    margin: auto;
+    padding-top: 0.625rem;
+}
+
+.box {
+    height: 10rem;
+    width: 10rem;
+    background-color: #142442a1;
+    border-radius: 1.25rem;
+    display: grid;
+    justify-content: center
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+/* ------section Who Trust In Us----------*/
+
+/*-------------section Explore------------*/
+
+.cardproduct {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 15rem ;
+    height: 20rem ;  
+    border-radius: 1.25rem;
+}
+
+.boxProduct {
+    background-image: linear-gradient(to right, rgb(164, 45, 132, .8) ,hsl(330, 94%, 43%, .8) );
+    width: 208px;
+    height: 112px;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    
+    border-radius: 0 0 1.25rem 0;
+}
+
+.textProduct {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textProduct > p {
+    font-size: 0.625rem; 
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    
+}
+
+h5 {
+    font-size: 0.9375rem;
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    
+    
+}
+
+
+.linea {
+    width: 13rem;
+    height: 0.0625rem;
+    background-color: rgba(255, 255, 255, 0.541);
+    margin: -0.625rem 0 0.5rem -0.5625rem;
+   
+}
+
+.cardproduct {
+    background-size: cover;  
+
+}
+       
+
+
+
+.botones {
+   display: flex;
+}
+
+.iconos > img {
+    width: 1.25rem; 
+    
+}
+
+.BID {
+    border: 0.0625rem solid white !important;
+    width: 12.5rem;
+    height: 3.125rem;
+}
+
+span > img {
+    width: 1.25rem;
+    color: white;  
+    margin-top: -0.3125rem;
+}
+
+.btn {
+    border:  solid 0.0625rem white !important;
+    color: white;
+    width: 128px;
+    border-radius: 1.25rem;
+    font-size: 0.5rem;
+    font-family: 'Lexend', sans-serif;
+    margin-left: 1.125rem;
+}
+
+.btn:hover {
+    background: #590f87!important ;
+}
+
+.contenedor {
+    padding: 64px;
+}
+
+.indicators {
+    position: relative !important;
+    margin-top: 64px;
+}
+
+.titleExplore {
+    color: white;
+    text-align: center;
+    padding: 0 80px 32px 80px;
+    
+    
+}
+.titleExplore > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 8px;
+    
+}
+
+/*---------/section Explore-----------*/
+
+/* -----Section Support Center------- */
+
+#box-support-center {
+    padding-top: 64px;
+}
+
+#support > img {
+    width: 350px;
+    height: 400px;
+}
+
+#datos {
+   display: flex;
+   justify-content: space-between;
+   margin: 10px 0 16px -30px;
+    
+}
+
+input {
+    width: 320px;
+    height: 32px;
+    background-color: var(--body-bg);
+    border: 0;
+    padding: 16px;
+    
+}
+
+textarea {
+    width: 675px;
+    height: 12.5rem;
+    background-color: var(--body-bg);
+    border: 0;
+    padding: 16px;
+    margin-bottom: 15px;
+    
+}
+
+
+
+.button-form > button {
+    height: 1.875rem !important;
+}
+
+form {
+    padding-bottom: 64px;
+}
+
+.supportCenter {
+    background-color: #142442;
+}
+
+#imgSupport >img {
+    width: 320px;
+}
+
+#title3 {
+    color: white;
+    font-family: 'Lexend', sans-serif;
+}
+
+/* /Support center */
+
+/* footer */
+.footer-king{
+    background-color: rgb(19, 31, 66);
+    padding-top: 32px;
+    margin-top: -48px;
+}
+
+#footer-info{
+    color: white;
+}
+#ft-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+#ft-1 h5{
+    justify-content: center;
+    align-items: center;
+}
+#ft2 h4{
+    font-weight: bold;
+    margin-bottom: 15%;
+}
+#ft2 li{
+    margin-bottom: 15%;
+}
+#ft2 a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.555) !important;
+}
+.anefty-descript{color: rgba(255, 255, 255, 0.555) !important;}
+#ft2 ul{
+    padding-left: 0%;
+    list-style: none;
+}
+#ft-4 img{
+    width: 3.625rem;
+    margin-top: 6%;
+    margin-left: 3%;
+}
+#ft-4 h4{
+    font-weight: bold;
+    margin-bottom: 8%;
+    margin-bottom: -8px;
+    margin-top: 16px;
+}
+.rds img{
+    border-radius: 50%;
+    padding: 0.375rem;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+.rds img:hover{
+    background: linear-gradient(45deg,#ff0076 0,#590f87 100%);
+}
+#company{
+    border: 0.0313rem solid rgba(255, 255, 255, 0.432);;
+}
+#company img{
+    padding: 2.8125rem;
+}
+#end{
+    padding: 0.9375rem;
+    color: white;
+}
+#end a{
+    padding: 0.625rem;
+    text-decoration: none;
+    color: #ffff;
+}
+.btn {
+    background: linear-gradient(45deg,#ff0076 0,#590f87 100%);
+}
+#email-form{
+    border-radius: 1.875rem 0 0 1.875rem;
+}
+#email-form-contains{
+    display: flex;
+}
+#email-form-input{
+    position: absolute;
+    left: 83.8%;
+    height: 2.4375rem;
+    border-radius: 1.875rem 0 0rem 1.875rem;
+}
+.email{
+    margin-bottom: 48px;
+    background-color: rgb(28, 41, 75);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
